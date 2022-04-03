@@ -1,0 +1,143 @@
+html,body{
+    margin: 0;
+    height: 100%;
+}
+.menu{
+
+    height: 100%;
+    width: 100%;
+    background-color: #247BA0;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+
+}
+
+.content{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.main-container{
+    padding-top: 20%;
+    
+}
+
+.menu-container{
+    padding-top: 40%;
+    height: 100%;
+
+}
+
+.main-section{
+    color:#FB9F89 ;
+    font-size: 9rem;
+    line-height: 200%;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.item{
+    color:#FB9F89 ;
+    font-size: 9rem;
+    line-height: 200%;
+    font-family: 'Bebas Neue';
+}
+.item:hover{
+    color: #FCE762;
+}
+
+.footer-chapter1{
+    color:#FCE762;
+    font-size: 5rem;
+    line-height: 200%;
+    font-family: 'Bebas Neue';
+    display: inline-block;
+    position: relative;
+}
+
+.footer-chapter1:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 10px;
+    bottom: 0;
+    left: 0;
+    background-color: #FCE762;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+
+.footer-chapter1:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+.footer-chapter2{
+    color:#FB9F89 ;
+    font-size: 5rem;
+    line-height: 200%;
+    font-family: 'Bebas Neue';
+    display: inline-block;
+    position: relative;
+}
+
+.footer-chapter2:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 10px;
+    bottom: 0;
+    left: 0;
+    background-color: #FB9F89;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+
+.footer-chapter2:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+/* CSS HEX
+--orange-yellow: #f2bb05ff;
+--vivid-tangerine: #fb9f89ff;
+--blue-munsell: #348aa7ff;
+--prussian-blue: #1d3354ff;
+--black-olive: #343633ff;
+*/
+
+.chapter1-container{
+    background-color: #FB9F89;
+    padding-top: 300px;
+}
+
+.content-title{
+    color: #0D1821;
+    font-size: 8rem;
+    line-height: 200%;
+    font-family: 'Abril Fatface', cursive;
+    line-height: 100%;
+}
+
+.chapter1-content{
+    color: #0D1821;
+    font-size: 2.25rem;
+    font-family:'Nunito Sans', sans-serif;
+    font-weight: lighter;
+    padding-top: 100px;
+}
+
+.chapter2-container{
+    background-color: #FCE762;
+    padding-top: 300px;
+}
