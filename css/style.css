@@ -33,10 +33,10 @@ html,body{
 }
 
 .main-section{
-    color:#FB9F89 ;
-    font-size: 9rem;
+    color:#000;
+    font-size: 90px;
     line-height: 200%;
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Helvetica', serif;
 }
 
 .item{
@@ -50,10 +50,11 @@ html,body{
 }
 
 .footer-chapter1{
-    color:#FCE762;
-    font-size: 5rem;
+    color:#000;
+    font-size: 80px;
     line-height: 200%;
-    font-family: 'Bebas Neue';
+    font-family: 'Libre Bodoni', serif;
+    font-weight: 500;
     display: inline-block;
     position: relative;
 }
@@ -66,7 +67,7 @@ html,body{
     height: 10px;
     bottom: 0;
     left: 0;
-    background-color: #FCE762;
+    background-color: #000;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
   }
@@ -77,10 +78,11 @@ html,body{
   }
 
 .footer-chapter2{
-    color:#FB9F89 ;
-    font-size: 5rem;
+    color: #000;
+    font-size: 40px;
     line-height: 200%;
-    font-family: 'Bebas Neue';
+    font-family: 'Libre Bodoni', serif;
+    font-weight: 500;
     display: inline-block;
     position: relative;
 }
@@ -90,10 +92,10 @@ html,body{
     position: absolute;
     width: 100%;
     transform: scaleX(0);
-    height: 10px;
+    height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #FB9F89;
+    background-color: #000;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
   }
@@ -117,27 +119,28 @@ a:hover, a:visited, a:link, a:active
 */
 
 .chapter1-container{
-    background-color: #FB9F89;
+    background-color: #f2f1ed;
     padding-top: 300px;
 }
 
 .content-title{
     color: #0D1821;
-    font-size: 8rem;
+    font-size: 80px;
     line-height: 200%;
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
     line-height: 100%;
 }
 
 .chapter1-content{
     color: #0D1821;
-    font-size: 2.25rem;
-    font-family:'Nunito Sans', sans-serif;
-    font-weight: lighter;
+    font-size: 25px;
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
     padding-top: 100px;
 }
 
 .chapter2-container{
-    background-color: #FCE762;
+    background-color: #f2f1ed;
     padding-top: 300px;
 }

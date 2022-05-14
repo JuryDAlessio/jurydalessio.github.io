@@ -1,16 +1,17 @@
 body::-webkit-scrollbar {
-    width: 0.7em;
-    background: #FB9F89;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
+  width: 14px;
+  background: #f0ead8; 
+}
 
-    opacity: 0%;
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #FCE762; 
-    border-radius: 10px;
-  }
+/* Track */
+::-webkit-scrollbar-track {
+  opacity: 0%;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border: 4px solid rgba(0, 0, 0, 0);
+  background-clip: padding-box;
+  border-radius: 9999px;
+  background-color: #a39f91;
+}
