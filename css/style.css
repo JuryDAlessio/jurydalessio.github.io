@@ -267,21 +267,6 @@ a:hover, a:visited, a:link, a:active
     position: relative;
 }
 
-.description::first-letter{
-    margin-left: 1rem;
-}
-
-.description::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: .5rem;
-    height: 1.5rem;
-    background-color: #0D1821;
-    border-radius: 2rem;
-}
-
 .cta{
     text-align:right;
     font-weight: bold;
